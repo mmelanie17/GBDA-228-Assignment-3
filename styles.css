@@ -1,0 +1,320 @@
+<style>
+
+body {
+  font-family: " Times New Roman", sans-serif;
+  margin: 0;
+  background-color: #B6B4FE;
+}
+
+/* Header CSS */
+.header {
+  object-position: center;
+  object-fit: fill;
+  overflow: hidden;
+  display: flex;
+  background-color: #000000;
+  width: 100%;
+  height: 90px;
+  box-shadow: 0 0 20px rgba(0, 0, 225, 10);
+}
+
+.header a {
+  float: left;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 1.1em;
+  line-height: 25px;
+  width: 100px;
+}
+
+.header h1 {
+  width: 10%%;
+  text-align: left;
+  margin-right: 420px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 3.1em;
+  line-height: 40px;
+  color: #fff;
+}
+
+header p {
+  margin: 0;
+}
+
+headerpic {
+  float: left;
+  margin-right: 50px;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+img.rounded-corners {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* Text CSS */
+p {
+  font-size: 1.3em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+main {
+  padding: 15px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+  margin: 0px;
+  width: 50%;
+  padding: 20px;
+}
+
+.left-text {
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+  width: 45%;
+  height: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 2.2em;
+  margin: 20px;
+}
+
+h3 {
+  text-align: center;
+  color: #270BA2;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+/* Navigation Bar CSS */
+nav {
+
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: -11;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav ul a:hover {
+  color: #8879FF;
+}
+
+/* Link States */
+/* Code copied from: https://www.w3schools.com/css/tryit.asp?filename=trycss_link 
+Author: w3schools.com
+Name: Styling Links
+Description: Displays links during different states: unvisited, visted, hover, selected
+Date retrieved: Dec 3, 2023
+Copied code starts*/
+/* unvisited link */
+a:link {
+  color: #5451FF;
+}
+
+/* visited link */
+a:visited {
+  color: #5451FF;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000000;
+}
+
+/* selected link */
+a:active {
+  color: #5451FF;
+}
+
+/* <!-- Copied code ends --> */
+
+/*CSS for Table*/
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+td {
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/*Forms Styles*/
+/*Code copied from https:https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2 
+Author: w3schools.com
+Name: Focused Input
+Description: Fills input box with colour, and creates border around it
+Date retrieved: Dec 2, 2023
+*/
+/*Copied code starts*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #000;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #000000;
+  background-color: #D7D6FD;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: 'Times New Roman', sans-serif;
+  resize: none;
+}
+
+/*Copied code ends */
+
+/*Home Page CSS*/
+.hpiccolumn {
+  float: right;
+  width: 50%;
+  height: 35%;
+  padding: 20px;
+  margin-top: 35px;
+}
+
+/* Portfolio Images CSS */
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.gallery img {
+  width: 20%;
+}
+
+/* Contact Page CSS */
+.ccontentcolumn {
+  float: right;
+  margin-top: 60px;
+  width: 45%
+}
+
+.formcolumn {
+  float: left;
+  margin-left: 45%;
+  margin-top: 40%;
+  padding-left: 20px;
+}
+
+/* Images CSS
+Code copied from: https://thebrandsmen.com/css-image-hover-effects/
+Author: The Brandsmen Marketing Agency
+Name: 10 SIMPLE CSS HOVER EFFECTS
+Description: Displays hover effects for images
+Date retrieved: Dec 3 2023
+
+Copied code starts */
+.color img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+.color img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+/* Copied code ends */
+/* Youtube Video CSS */
+iframe {
+  width: 590px;
+  height: 320px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 29%
+}
+
+/* Section */
+footer {
+  background-color: #000000;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 225, 0.5);
+}
+
+</style></head>
